@@ -1,0 +1,15 @@
+.app {
+  max-width: 80vw;
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 40px;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.app > section {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
